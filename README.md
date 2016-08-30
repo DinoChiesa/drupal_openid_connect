@@ -17,6 +17,13 @@ A summary of the changes I made:
 * Don't skip the name and email mapping.  For some reason the module by default does not allow mapping the OpenID Connect claims to the corresponding Drupal user entity properties of name and mail.  That doesn't make sense to me.  So I modified the code to not skip those properties.
 
 
+## Screencasts for Demo & Setup
+
+[![Demo](/images/demo-screenshot.png)](https://www.youtube.com/watch?b4vucMTsZi4)
+
+[![Setup](/images/setup-screenshot.png)](https://www.youtube.com/watch?pFvai8kdIlY)
+
+
 
 ## Author
 
