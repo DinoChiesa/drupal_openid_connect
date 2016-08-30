@@ -23,6 +23,9 @@ A summary of the changes I made:
 
 [![Setup](/images/setup-screenshot.png)](https://www.youtube.com/watch?v=pFvai8kdIlY)
 
+## Other notes
+
+I followed [this helpful link](http://www.dushyantgill.com/blog/2015/05/23/developers-guide-to-auth-with-azure-resource-manager-api/) for setting up Azure AD to allow OpenID Connect logins from external apps. 
 
 
 ## Author
