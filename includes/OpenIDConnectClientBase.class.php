@@ -152,11 +152,11 @@ abstract class OpenIDConnectClientBase implements OpenIDConnectClientInterface {
    * Implements OpenIDConnectClientInterface::decodeIdToken().
    */
   public function decodeIdToken($id_token) {
-    watchdog('openid_connect', 'ID Token: @token', array( '@token' => $id_token ), WATCHDOG_NOTICE);
+    //watchdog('openid_connect', 'ID Token: @token', array( '@token' => $id_token ), WATCHDOG_NOTICE);
     list($headerb64, $claims64, $signatureb64) = explode('.', $id_token);
     $claims64 = str_replace(array('-', '_'), array('+', '/'), $claims64);
     $claims64 = base64_decode($claims64);
-    watchdog('openid_connect', 'ID Token claims: @claims', array( '@claims' => $claims64 ), WATCHDOG_NOTICE);
+    //watchdog('openid_connect', 'ID Token claims: @claims', array( '@claims' => $claims64 ), WATCHDOG_NOTICE);
     return drupal_json_decode($claims64);
   }
 
@@ -173,7 +173,7 @@ abstract class OpenIDConnectClientBase implements OpenIDConnectClientInterface {
     $response = drupal_http_request($endpoints['userinfo'], $request_options);
     if (!isset($response->error) && $response->code == 200) {
       $json = drupal_json_decode($response->data);
-      watchdog('openid_connect', 'JSON: @json', array( '@json' => $response->data ), WATCHDOG_NOTICE);
+      //watchdog('openid_connect', 'JSON: @json', array( '@json' => $response->data ), WATCHDOG_NOTICE);
       return $json;
     }
     else {
