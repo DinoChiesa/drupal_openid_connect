@@ -19,9 +19,9 @@ A summary of the changes I made:
 
 ## Screencasts for Demo & Setup
 
-[![Demo](/images/demo-screenshot.png)](https://www.youtube.com/watch?b4vucMTsZi4)
+[![Demo](/images/demo-screenshot.png)](https://www.youtube.com/watch?v=b4vucMTsZi4)
 
-[![Setup](/images/setup-screenshot.png)](https://www.youtube.com/watch?pFvai8kdIlY)
+[![Setup](/images/setup-screenshot.png)](https://www.youtube.com/watch?v=pFvai8kdIlY)
 
 
 
